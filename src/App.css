@@ -1,0 +1,122 @@
+#input_container {
+    position:relative;
+    height: 10;
+   
+}
+#input {
+    height:20px;
+    width: 200px;
+    margin:0;
+    outline-width:0px; 
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 50px;
+    border-color:whitesmoke;
+    background-color:whitesmoke;
+}
+#input_img {
+    position:relative;
+    right: 50px;
+    outline-width:0px; 
+    top:15px;
+    width:38px;
+    height:38px;
+}
+textarea{
+    box-sizing: border-box;
+    width:580px;
+    height: 30px;
+    border-radius:10px ;
+    outline-width:0px;
+    border-color: blue;
+    padding: 10px 0 13px 0px;
+    resize: none;
+    overflow: hidden;
+}
+
+textarea:focus {
+    height: 4em;
+}
+#wrapper {
+    clear:both;
+  }
+  #first {
+      float:left;
+  }
+  #second {
+    float:left;
+  }
+  #third {
+    float:left;
+  }
+  #profile{
+      float: left;
+      height: 70px;
+      border-radius: 50px;
+      margin-top: 80px;
+      margin-left:20px; 
+  }
+  #link{
+      float: left;
+    margin-top: 120px;
+    margin-left:20px;
+  }
+  #link2{
+    float: left;
+    position: absolute;
+  margin-top: 135px;
+  margin-left:100px;
+}
+#link3{
+    margin-left: 10px;
+    position: absolute;
+    margin-top:50px;
+}
+#link4{
+    position: absolute;
+    margin-top:80px;
+    margin-left: 20px;
+}
+#bg{
+    background-color:rgb(247, 56, 56); 
+}
+button {
+    background-color: rgb(241, 243, 247);
+    border-radius:30px;
+    color: rgb(14, 6, 6);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-color: blue;
+    padding: 6px 24px;
+    outline-width: 0px;
+    cursor: pointer;
+}
+#main {
+    clear:both;
+  }
+  #tweet{
+
+      float:left;
+      margin-left: 30px;
+  }
+  #followers {
+    float:left;
+    margin-left: 30px;
+    text-decoration-line: none;
+  }
+  #following {
+    float:left;
+    margin-left: 30px;
+    text-decoration:none;
+  }
+  a:hover{
+text-decoration:none;
+cursor: pointer;
+  }
+  a{
+      text-decoration:none;
+  }
